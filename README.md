@@ -26,6 +26,7 @@ session operates in a virtual environment set up by `venv`.
 Once `pip` has finished downloading the dependencies:
 
 ```sh
+(env)$ cd employee_management/
 (env)$ python3.7 manage.py runserver
 ```
 And navigate to `http://127.0.0.1:8000/`.
